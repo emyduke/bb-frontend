@@ -1,351 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
-    <link rel="icon" href="#">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="author" content="Busybeeshoppers">
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-    <link href="static/store/assets/new-tmp-assets/vendor/unicons-2.0.1/css/unicons.css" rel='stylesheet'>
-    <link href="static/store/assets/new-tmp-assets/css/style042b.css?id=OMMw5Bv0lmbUpPGdsCd039ptWagSlC9HBkKvkxgA7NdsQA5qQlAEuafdddPbZbhK" rel="stylesheet">
-    <link href="static/store/assets/new-tmp-assets/css/step-wizard.css" rel="stylesheet">
-    
-    <link href="static/store/assets/new-tmp-assets/css/responsive.css" rel="stylesheet">
-    <link href="static/store/assets/new-tmp-assets/css/night-mode.css" rel="stylesheet">
-
-    <link href="static/store/assets/new-tmp-assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="static/store/assets/new-tmp-assets/vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet">
-    <link href="static/store/assets/new-tmp-assets/vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">
-    <link href="static/store/assets/new-tmp-assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="static/store/assets/new-tmp-assets/vendor/semantic/semantic.min.css">
-    <link rel="stylesheet" href="static/store/assets/new-tmp-assets/css/bottom-tabs.css" >
-
-
-    <link rel="stylesheet" href="static/store/assets/css/login.css">
-    <script src="../www.google.com/recaptcha/api.js" async defer></script>
-
-    <style>
-      .wrapper {
-        padding-bottom: 0px;
-      }
-
-      .about-img img {
-        width: 80%;
-      }
-      @media (max-width: 575.98px) {
-
-        .section-last{
-          padding: 1rem!important;
-        }
-
-        .section-last .container div{
-          padding: 2rem!important;
-        }
-      }
-
-      
-    </style>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Beau+Rivage&family=Roboto+Slab&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+<title>Shopping</title>
+    <link rel="stylesheet" href="/static/store/homepage/nhome/css/style.css">
+    <script src="https://kit.fontawesome.com/324f48ff45.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
-  <header class="header clearfix" style="border-bottom: 2px solid #CF3774;">
-    <div class="top-header-group">
-        <div class="top-header">
-            <div class="res_main_logo">
-                <a href="index.html">
-                    <img src="media/store/logo/logo.png" alt="Busy Bee Shoppers">
-                </a>
-            </div>
-            <div class="main_logo" id="logo">
-                <a href="index.html">
-                    <img src="media/store/logo/logo.png" alt="Busy Bee Shoppers">
-                </a>
-                <a href="index.html">
-                    <img class="logo-inverse" src="media/store/logo/logo.png" alt="Busy Bee Shoppers">
-                </a>
-            </div>
-            
-            
-            <div class="header_right">
-                <ul>
-                    <li class="d-none d-md-inline-block">
-                      <a href="store/index.html" class="item channel_item" style="font-weight: 900; font-size: large; color: #cf3774;">Start Shopping</a>
-                    </li>
-                    <li class="d-none d-md-inline-block ml-3">
-                      <a href="account/signup/vendor/index.html" class="item channel_item" style="font-weight: 900; font-size: large; color: #cf3774;">Become a Seller</a>
-                    </li>
-                    <li class="d-none d-md-inline-block ml-3">
-                      <a href="account/signup/customer/index.html" class="item channel_item" style="font-weight: 900; font-size: large; color: #cf3774;">Create Account</a>
-                    </li>
-                    <li class="d-none d-md-inline-block ml-3">
-                      <a href="account/login/index.html" class="item channel_item" style="font-weight: 900; font-size: large; color: #cf3774;">Login</a>
-                    </li>
-                    <li class="ui dropdown d-md-none">
-                        <a href="#" class="opts_account ml-0 p-0" style="color: #cf3774;">
-                            <i class="uil uil-align-justify" style="font-size: xx-large; font-weight: 900;"></i>
-                        </a>
-                        <div class="menu dropdown_account">
-                            
-                            <a href="store/index.html" class="item channel_item"><i
-                                class="uil uil-shopping-trolley icon__1"></i>Start Shopping</a>
-                            <a href="account/signup/vendor/index.html" class="item channel_item"><i
-                                    class="uil uil-user-plus icon__1"></i>Become a Seller</a>
-                            <a href="account/signup/customer/index.html" class="item channel_item"><i
-                                    class="uil uil-user-plus icon__1"></i>Create New Account</a>
-                            <a href="account/login/index.html" class="item channel_item"><i
-                                class="uil uil-lock-alt icon__1"></i>Login</a>
+                                                  <!--Navbar-Section-->
+    <section class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="{% url 'store' %}"><img src="/static/store/homepage/nhome/css/images/logo.png" class="navbar-logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active link-animation" aria-current="page" href="/">Home</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                      <div class="row">
+                        <div class="col-md-3 shop-items">
+                          <li><a class="link-animation" href="{% url 'store' %}"><h6 class="fw-bold text-bold-700">Confectionaries</h6></a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Fruits</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Household Supplies</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Another action</a></li>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
+                        <div class="col-md-3 shop-items">
+                          <li><a class="link-animation" href="{% url 'store' %}"><h6 class="fw-bold text-bold-700">Confectionaries</h6></a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Fruits</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Household Supplies</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Another action</a></li>
+                        </div>
 
-    
-</header>
-    
+                        <div class="col-md-3 shop-items">
+                          <li><a class="link-animation" href="{% url 'store' %}"><h6 class="fw-bold text-bold-700">Confectionaries</h6></a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Fruits</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Household Supplies</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Another action</a></li>
+                        </div>
 
-
-    
-
-
-    <div class="wrapper bg-white">
-
-      <div class="life-gambo">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div style="display: flex; align-items:center; height: 100%; flex-direction: column; justify-content: center;">
-                      <div class="default-title left-text">
-                        <h2 class="text-center">Become a Busybee Shopper and get Groceries
-                          Delivered to you anywhere in Abuja Nigeria.</h2>
+                        <div class="col-md-3 shop-items">
+                          <li><a class="link-animation" href="{% url 'store' %}"><h6 class="fw-bold text-bold-700">Confectionaries</h6></a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Fruits</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Household Supplies</a></li>
+                          <li><a class="link-animation" href="{% url 'store' %}">Another action</a></li>
+                        </div>
                       </div>
-                      <div class="">
-                          <p class="text-center">Join the leagues of busy professionals who enjoy fast
-                            delivery of groceries to their homes and offices without moving an inch</p>
-                      </div>
-
-                      <div class="mt-5">
-                        <a href="#" class="button add-cart-btn hover-btn pt-3 pb-3" >Create A New Account</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-img">
-                        <img src="static/store/homepage/images/7-removebg-preview.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="default-dt mb-5 mt-5">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 col-md-12">
-                  <div class="title129">
-                      <h2>BusyBee Shoppers - Your groceries shopping assistance in Abuja, Nigeria.</h2>
-                      <p class="text-light">With our service, you can start with your selections accross different categories, make payments using our secure
-                        card payment and enjoy hassle-free delivery to any location in Abuja, Nigeria.</p>
                       
-                  </div>
+                      <li><hr class="dropdown-divider d-none"></li>
+                      <li><a class="dropdown-item d-none" href="{% url 'store' %}">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item d-none">
+                    <a class="nav-link active link-animation" href="{% url 'store' %}">Blog</a>
+                  </li>
+                  
+
+                    <form class="d-flex d-none">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search-btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                      </form>
+                  
+                </ul>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item"><a href="{% url 'account' %}" class="nav-link active link-animation"><i class="bi bi-people-fill"></i></a></li>
+                  <li class="nav-item"><a href="{% url 'wishlist' %}" class="nav-link active link-animation"><i class="bi bi-heart-fill"></i></a></li>
+                  <li class="nav-item"><a href="{% url 'checkout' %}" class="nav-link active link-animation"><i class="bi bi-cart-check-fill"></i></a></li>
+                </ul>
+                
+               
               </div>
-          </div>
-      </div>
-
-
-      <div class="section145 class mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-title-tt d-block">
-                        <div class="main-title-left text-center">
-                            <h2 style="font-size: small;" class="text-white">Our Popular Categories</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="owl-carousel cate-slider owl-theme">
-                        <div class="item">
-                            <a href="javascript:void(0)" class="category-item">
-                                <div class="cate-img">
-                                    <img src="static/store/homepage/images/8.png" alt="">
-                                </div>
-                                <h4>Stationaries</h4>
-                            </a>
-                        </div>
-                        <div class="item">
-                          <a href="javascript:void(0)" class="category-item">
-                              <div class="cate-img">
-                                  <img src="static/store/homepage/images/6.png" alt="">
-                              </div>
-                              <h4>Drinks &amp; Beverages</h4>
-                          </a>
-                        </div>
-                        <div class="item">
-                          <a href="javascript:void(0)" class="category-item">
-                              <div class="cate-img">
-                                  <img src="static/store/homepage/images/5.png" alt="">
-                              </div>
-                              <h4>Health and Beauty</h4>
-                          </a>
-                        </div>
-                        <div class="item">
-                          <a href="javascript:void(0)" class="category-item">
-                              <div class="cate-img">
-                                  <img src="static/store/homepage/images/3.png" alt="">
-                              </div>
-                              <h4>Canned Goods</h4>
-                          </a>
-                        </div>
-                        <div class="item">
-                          <a href="javascript:void(0)" class="category-item">
-                              <div class="cate-img">
-                                  <img src="static/store/homepage/images/5.png" alt="">
-                              </div>
-                              <h4>Household Supplies</h4>
-                          </a>
-                        </div>
-                        <div class="item">
-                          <a href="javascript:void(0)" class="category-item">
-                              <div class="cate-img">
-                                  <img src="static/store/homepage/images/4.png" alt="">
-                              </div>
-                              <h4>Bread and Bakery</h4>
-                          </a>
-                        </div>
-                    </div>
-                </div>
             </div>
+          </nav>
+
+          
+    
+    </section>
+
+                                                   <!--Header Section-->
+
+    <section class="header-section" >
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 order-md-2 slide-left"><img src="/static/store/homepage/nhome/css/images/7.png" class="w-100" style="opacity:0.8;"/></div>
+          
+          <div class="col-md-6 header-text order-md-1 slide-right">
+            <h4 class="text-center text-md-start">Become a Busybee Shopper and get Groceries Delivered to you anywhere in Abuja Nigeria.</h4>
+            <p class="text-muted lead-md mb-lg-8 mb-6 text-md-start text-center">Join the leagues of busy professionals who enjoy fast delivery of groceries to their homes and offices without moving an inch</p>
+           
+            <div class="text-center text-md-start mb-6">
+            <a href="{% url 'store' %}" class="btn btn-md header-btn me-1">Start Shopping</a>
+            <a href="{% url 'signup' %}" class="btn btn-md header-btn btn-primary-soft">Create Account</a> 
+           </div>
+            
+          </div>
+        
+         
         </div>
-    </div>
+        
 
+    </section>
 
-  </div>
-
-
-  <div class="life-gambo bg-white">
-    <div class="container">
+                                                     <!--Feature Section-->
+    <section class="feature-section">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-6 order-2 order-md-0">
-                <div style="display: flex; align-items:center; height: 100%; flex-direction: column; justify-content: center;">
-                  <div class="default-title left-text">
-                    <h2>Buy in Bulk</h2>
-                  </div>
-                <div class="about-content ">
-                    <p class="text-center">Want to buy our grocceries in large quantities and reduce the buying cost buy percentage? We got you covered.</p>
-                </div>
 
-                <div class="mt-3">
-                  <a href="#" class="btn btn-outline-primary">Create A New Account</a>
-                </div>
-                </div>
-            </div>
-            <div class="col-lg-6 ">
-                <div class="about-img mb-3">
-                    <img src="static/store/homepage/images/1.png" style="width: 80%; margin: auto;" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="life-gambo pb-5 pt-5" style="background-color: #fdfbfb;">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-6">
-            <div class="about-img" style="width: 60%; margin: 0 auto;">
-                <img src="static/store/images/about.svg" alt="">
-            </div>
-        </div>
-
-          <div class="col-lg-6">
-            <div style="display: flex; align-items:center; height: 100%; flex-direction: column; justify-content: center;">
-              <div class="card pt-4 pb-4 pr-3 pl-3 text-white" style="max-width: 500px; background-color: #D2437C; border-radius: 8px;">
-                <h1 style="font-weight: 900;">Become a seller</h1>
-                <p style="font-size: 1.25rem;" class="text-white">Increase your income by listing your products and selling to busybee shoppers. 
-                  <br>Get approved in minutes (T&amp;C applies)
-                </p>
-          
-                <div>
-                  <a href="account/signup/vendor/index.html" style="color: #D2437C; border-radius: 20px; font-weight: 900; font-size: x-large;" class="btn btn-light btn-lg">Start selling</a>
-                </div>
+         
+            <div class=" col-3 d-flex">
+              <i class="bi bi-truck feature-icons me-1"></i>
+              <div><h6>Smooth delivery</h6>
+                <p class="d-md-block d-none ">Smooth delivery</p>
               </div>
-            </div>
-          </div>
+             </div>
+             <div class="col-3 d-flex">
+              <i class="bi bi-shield-check feature-icons me-1"></i>
+              <div>
+                <h6>Secure Payment</h6>
+                <p class="d-md-block d-none" >100% Guaranteed secure payments</p>
+              </div>
+             </div>
+             <div class="col-3 d-flex">
+              <i class="bi bi-headset feature-icons me-1"></i>
+              <div>
+                <h6>24/7 support</h6>
+                <p class="d-md-block d-none" >Anywhere and Anytime</p>
+              </div>
+             </div>
+             <div class="col-3 d-flex">
+              <i class="bi bi-hand-thumbs-up feature-icons me-1"></i>
+              <div>
+                <h6>Daily Offer</h6>
+                <p class="d-sm-block d-none">Discount up to 50% off</p>
+              </div>
+             </div>
+         
+
           
-      </div>
-  </div>
-</div>
 
-
-
-<section class="section-last bg--primary p-5" style="background-color: #FF66C4;">
-  <div class="container">
-    <div class="bg-light p-5 text-center" style="max-width: 748px; margin: 0 auto; border-radius: 25px;">
-      <h2 style="font-weight: 600;">Busybee Shoppers - Everything you need to buy anytime in one place in Abuja, Nigeria.</h2>
-      <p style="font-size: 1.25rem; text-align: left;">Our system gives you access to shop your grocceries regardless of your schedule. We save your time and take
-        away the stress you get from shopping through our quality delivery while allowing you to focus on what's most
-        important to you.</p>
-    </div>
-  </div>
-</section>
+       
+        
+          
+        </div>
         
 
 
+      </div>
 
+    </section>
+                                                     <!--Shape divider svg-->
+    <div class="svg pr pt-10">
+      <div class="custom-shape-divider-bottom-1649376265">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+        </svg>
+    </div>
     </div>
 
-    <footer class="footer" style="background-color: #fdfbfb;">
-      <div class="footer-last-row">
-        <div class="container">
-          <div class="copyright-text">
-              <i class="uil uil-copyright"></i>Copyright 2020 <b>BusyBeeShoppers</b> . All rights reserved
+    <section class="pt-10 bg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 col-md-10 text-center text-white">
+            <h4 class="fw-normal">BusyBee Shoppers </h4>
+            <h6 class="mb-3 lead">Your groceries shopping assistance in Abuja, Nigeria.</h6>
+            <p class="mb-6">With our service, you can start with your selections accross different categories, make payments using our secure card payment and enjoy hassle-free delivery to any location in Abuja, Nigeria.</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="category-section bg pr">   
+     <div class="container">
+       <div class="row">
+
+         <div class="col-12">
+          <div class="carousel bg" data-flickity='{ "autoPlay": true }'>
+           
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/1.png"  class="carousel-img" /></div>
+                  <p class="lead text-center">Fruits and Vegetables</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+           
+
+            
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/6.png" class="carousel-img"/></div>
+                  <p class="lead">Drinks and Beverages</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/2.png" class="carousel-img" /></div>
+                  <p class="lead">Household Supplies</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/5.png" class="carousel-img"/></div>
+                  <p class="lead">Health and Beauty</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/4.png" class="carousel-img"/></div>
+                  <p class="lead">Bread and Bakery</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/8.png" class="carousel-img"/></div>
+                  <p class="lead">Stationeries</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+
+              <div class="card card-border carousel-cell">
+                <div class="card-body text-center">
+                  <div class="img-fluid mb-2 mx-auto"><img src="/static/store/homepage/nhome/css/images/3.png" class="carousel-img"/></div>
+                  <p class="lead">Canned Goods</p>
+                  <a href="{% url 'store' %}" class="btn bg bt-br">Shop</a>
+                </div>
+              </div>
+            
+            
+          </div>
+
+
+         </div>
+       </div>
+     </div>
+     
+
+    </section>
+
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4">
+            <div class="dt-div text-md-start text-center">
+              <h6 class="mb-3">SPECIAL OFFER</h6>
+              <h2 class="mb-3" style=" font-size: 3.25rem;">Whenever you buy in bulk</h2>
+              <h6 class="mb-6">we reduce the buying cost per percentage.</h6>
+              <a href="{% url 'store' %}" class="btn btn-dark">Shop Now</a>
+            </div>
+          </div>
+          <div class="col-md-8"><img src="/static/store/homepage/nhome/css/images/1.png" class="w-100" style="opacity:0.8;"/></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="seller-section bg pr">
+      <div class="custom-shape-divider-top-1649384057">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+        </svg>
     </div>
-    </footer>
+     <div class="container">
+       <div class="row justify-content-center align-items-center">
 
 
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
-    <script src="static/store/assets/new-tmp-assets/js/jquery-3.3.1.min.js"></script>
-    <script src="static/store/assets/new-tmp-assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="static/store/assets/new-tmp-assets/vendor/OwlCarousel/owl.carousel.js"></script>
-    <script src="static/store/assets/new-tmp-assets/vendor/semantic/semantic.min.js"></script>
-    <script src="static/store/assets/new-tmp-assets/js/jquery.countdown.min.js"></script>
-    <script src="static/store/assets/new-tmp-assets/js/custom.js"></script>
-    <script src="static/store/assets/new-tmp-assets/js/product.thumbnail.slider.js"></script>
-    <script src="static/store/assets/new-tmp-assets/js/offset_overlay.js"></script>
-    <script src="static/store/assets/new-tmp-assets/js/night-mode.js"></script>
+         <div class="col-md-6 order-md-2 text-md-start text-center text-white">
+          
+            <h1 class="mb-3 fw-normal">Become A Seller</h1>
+              <h6 style="font-size: 1.5rem;">Increase your income by listing your products and selling to busybee shoppers.</h6>
+                <p class="mb-6"> Get approved in minutes (T&C applies)</p>
+              <a href="{% url 'signup' 'vendor' %}" class="btn btn-dark">Start Selling</a>
+           
+         </div>
+         <div class="col-md-6 order-md-1"><img src="/static/store/homepage/nhome/css/images/delivery-img2.png"/></div>
 
-    <!-- ./** Sweet alert **/-->
-    <script src="static/store/assets/sweetalert2.js"></script>
-    <script src="static/store/assets/jquery.countdown.min.js"></script>
 
-    <script>
-        var csrf_token = 'OMMw5Bv0lmbUpPGdsCd039ptWagSlC9HBkKvkxgA7NdsQA5qQlAEuafdddPbZbhK';
-    </script>
-    <script src="static/store/assets/js/base042b.js?id=OMMw5Bv0lmbUpPGdsCd039ptWagSlC9HBkKvkxgA7NdsQA5qQlAEuafdddPbZbhK"></script>
+       </div>
+     </div>
+    </section>
 
+    <section class="product-section pr">
+      <div class="custom-shape-divider-top-1642280267">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+          </div>
+      <div class="container px-4 pr">
+       
+
+        <div class="col-md-5 p-lg-5 my-5">
+          <h1 class=" fw-normal">Busybee Shoppers</h1>
+            <h5 class="">Everything you need to buy anytime in one place in Abuja, Nigeria.</h5>
+          <p class= "">Our system gives you access to shop your grocceries regardless of your schedule. We save your time and take away the market-runs stress while allowing you to focus on what's most important to you.</p>
+          <a class="btn btn-outline-secondary" href="{% url 'store' %}">Start Shopping</a>
+        </div>
+
+       
+
+
+       
+          
+      </div>
+    </section>
+
+ 
     
 
+    <section class="footer-section">
+      <footer class="py-8 py-md-11 p-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+              <a href="/"><img src="/static/store/homepage/nhome/css/images/logo.png" class="navbar-logo" /></a>
+              <p class="mb-2">Lorem ipsum dolor amet</p>
+              <ul class="col-6 justify-content-start list-unstyled d-flex ">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fab footer-icons fa-twitter fa-2x" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"  data-mdb-animation-on-scroll="repeat" data-mdb-animation-start="onHover"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fab footer-icons fa-facebook fa-2x img-fluid z-depth-1 wow bounceIn"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fas footer-icons fa-envelope fa-2x"></i></a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-4 col-lg-2">
+              <h6 class="fw-bold text-uppercase text-bold-700">Our Company</h6>
+              <ul class="list-unstyled text-muted mb-6 mb-md-8 md-lg-0">
+                <li class="mb-3"> <a class="text-reset">About Us</a></li>
+                <li class="mb-3"> <a class="text-reset">Advertise with Us</a></li>
+                <li class="mb-3"> <a class="text-reset">Sell With Busybee</a></li>
+                <li class="mb-3"> <a class="text-reset">Blog</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-4 col-lg-2">
+              <h6 class="fw-bold text-uppercase text-bold-700">Shop</h6>
+              <ul class="list-unstyled text-muted mb-6 mb-md-8 md-lg-0">
+                <li class="mb-3"> <a class="text-reset">Products</a></li>
+                <li class="mb-3"> <a class="text-reset">Categories</a></li>
+                <li class="mb-3"> <a class="text-reset">Our Suppliers</a></li>
+                <li class="mb-3"> <a class="text-reset">Deliveries</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+              <h6 class="fw-bold text-uppercase text-bold-700">Support</h6>
+              <ul class="list-unstyled text-muted mb-6 mb-md-8 md-lg-0">
+                <li class="mb-3"> <a class="text-reset" href="#">Payments</a></li>
+                <li class="mb-3"> <a class="text-reset" href="#">Shipping</a></li>
+                <li class="mb-3"> <a class="text-reset" href="#">FAQs</a></li>
+                <li class="mb-3"> <a class="text-reset" href="#">Checkout</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-4 col-lg-2">
+              <h6 class="fw-bold text-uppercase text-bold-700">Busybee Newsletter</h6>
+              <p class="fs-lg text-muted mb-6 mb-md-0 newsletter-text">Subscribe now to get updates on promotions and coupons.</p>
+      
+      
+             <form class="d-flex" action="index.html" method="post" class="d-flex">
+              <input class="form-control email-input" type="email" placeholder="Enter your email">
+              <button type="submit" name="button" class="btn footer-btn bg">Subscribe</button>
+            </form>
+      
+            </div>
+          </div>
+        </div>
+      
+        </footer>
+
+      </div>
+
+    </section>
     
+
+<script src="/static/store/homepage/nhome/app.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
-
 </html>
