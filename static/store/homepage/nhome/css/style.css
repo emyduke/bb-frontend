@@ -3,11 +3,11 @@ a {
 }
 
 h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif!important;
 }
 
 p {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Arimo', sans-serif!important;
 }
 
 
